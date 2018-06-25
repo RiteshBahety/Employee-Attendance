@@ -3,4 +3,8 @@
     <string name="action_settings">Settings</string>
     <string name="preview_description">Image preview will appear here</string>
     <string name="btn_take_picture">Take Picture</string>
+
+    <string name="title_back">Back</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="title_save">Save</string>
 </resources>
