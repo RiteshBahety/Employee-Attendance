@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cstp.empatt.MainMenuActivity"
+    tools:showIn="@layout/activity_main_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/add_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addEmployee"
+            android:text="Add Employee" />
+
+        <Button
+            android:id="@+id/edit_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="editEmployee"
+            android:text="Edit Employee" />
+
+        <Button
+            android:id="@+id/del_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deleteEmployee"
+            android:text="Delete Employee" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
